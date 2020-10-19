@@ -1,13 +1,13 @@
 class Player {
-  width = 40;
-  height = 40;
-  speed = 3;
-
   constructor({x, y, score, id}) {
     this.x = x;
     this.y = y;
     this.score = score;
     this.id = id;
+
+    this.width = 40;
+    this.height = 40;
+    this.speed = 3;
   }
 
   processInput(buttons) {
